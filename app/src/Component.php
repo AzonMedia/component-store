@@ -25,4 +25,9 @@ class Component extends BaseComponent implements ComponentInterface, ComponentIn
     protected const VENDOR_URL = 'https://azonmedia.com';
     protected const ERROR_REFERENCE_URL = 'https://github.com/AzonMedia/component-store/tree/master/docs/ErrorReference/';
 
+    public static function run_all_initializations(): array
+    {
+        // TODO: Implement run_all_initializations() method.
+        return [];
+    }
 }
